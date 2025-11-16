@@ -4,9 +4,9 @@
 Lie Detector lets you monitor the heart rate and possible 'tells' of deception from any face, including live video calls or recordings.
 
 Video demo and more info [available 
-here](https://youtu.be/5q-BQ2Q_pqI)!
 
-![demo](demo.png)
+
+
 
 Lie Detector uses [OpenCV](https://github.com/opencv/opencv-python) and MediaPipe's [Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh.html#python-solution-api) to perform real-time detect of facial landmarks from video input. It also uses [FER](https://pypi.org/project/fer/) for mood detection. From there, relative differences are calculated to determine significant changes in specific facial movements from a person's baseline, including their:
 
